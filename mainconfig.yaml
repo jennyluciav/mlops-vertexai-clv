@@ -1,0 +1,26 @@
+creditcards:
+    project: 'fsa-sandbox'
+    region: 'europe-west2' 
+    docker_repo: 'europe-west2-docker.pkg.dev/fsa-sandbox/mlops-docker-repo'
+    service_account: 'mlops-vertexai-sa@fsa-sandbox.iam.gserviceaccount.com'
+    vertex_dataset_name: 'creditcards'
+    raw_schema_dir: 'src/raw_schema'
+    bucket: 'fsa-sandbox'
+    limit: 5000
+    version: 'v02'
+    cloudfunction_region: 'europe-west2'
+    artifactregistry_region: 'europe-west2'
+    python_pkg_repo: 'pyrepo'
+    bq:
+       dataset: 'creditcards'
+       location: 'europe-west2'
+       source_table: 'creditcards'
+       ml_table: 'creditcards_ml'
+    dataflow:
+        subnet: 'vpc-default'
+        service_account: 'mlops-vertexai-sa@fsa-sandbox.iam.gserviceaccount.com'
+    featurestore_id: 'creditcards'
+    git:
+        repo_url: "git@github.com:jennyluciav/mlops-vertexai"
+        branch: "main"     
+ 
