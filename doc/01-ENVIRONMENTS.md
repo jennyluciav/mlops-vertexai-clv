@@ -34,20 +34,6 @@ These groups are not suitable for production grade environments. You can configu
 
 ### Git environment for the ML Pipelines
 
-Clone the Google Cloud Professional services [repo](https://github.com/GoogleCloudPlatform/professional-services) to a temp directory: 
-```
-git clone https://github.com/GoogleCloudPlatform/professional-services.git
-cd professional-services/
-```
-
-Setup your new Github repo using the Github web console or CLI.
-
-Copy the `vertex_mlops_enterprise` folder to your local folder, including the Github actions, hidden dirs and files:
-
-```
-cp -r ./examples/vertex_mlops_enterprise/  <YOUR LOCAL FOLDER>
-```
-
 Commit the files in the main branch (`main`):
 ```
 git init
